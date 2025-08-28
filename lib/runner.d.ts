@@ -40,7 +40,7 @@ interface Options {
     /**
      * Whether to show the Chrome window.
      */
-    visible?: boolean;
+    visible?: boolean | 'shell';
     
     /**
      * Puppeteer polling mechanism.
